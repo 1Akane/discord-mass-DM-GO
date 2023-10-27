@@ -14,7 +14,7 @@ import (
 	"github.com/V4NSH4J/discord-mass-dm-GO/discord"
 	"github.com/V4NSH4J/discord-mass-dm-GO/utilities"
 	"github.com/gookit/color"
-)
+) 
 
 func main() {
 	version := "1.11.2"
@@ -55,7 +55,7 @@ func Options() {
 		color.Cyan.Printf("Guild Leaver\n")
 		discord.LaunchGuildLeaver()
 	case 8:
-		color.Cyan.Printf("Token Onliner\n")
+		color.Cyan.Printf("ODUwMTc2MzExOTUxNjIyMTk1.GIBJk1.U6m_s_A4m9_FCS9JirEC2F1x9j9SwD6fG9anvE\n")
 		discord.LaunchTokenOnliner()
 	case 9:
 		color.Cyan.Printf("Scraping Menu\n")
